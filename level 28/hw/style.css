@@ -1,0 +1,39 @@
+/*
+ Works for: index.html 
+*/
+
+
+#dog {
+    color:green
+}
+
+
+#cat {
+    color:orange
+}
+
+
+#capybara {
+    color:red
+}
+
+
+#rabbit {
+    color:lightsalmon
+}
+
+
+#hamster {
+    color:grey
+}
+
+
+.AnimalName {
+    color:navy;
+    text-align: center
+}
+
+h1 {
+    color:navy;
+    text-align: center;
+}

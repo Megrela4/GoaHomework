@@ -1,0 +1,22 @@
+/* Works for index2.html! */
+
+
+th {
+    background-color: green;
+}
+
+.special-style {
+    color: green;
+    background-color: black;
+}
+
+
+#special-td {
+    background-color: green;
+}
+
+
+.everything-left {
+    color: green
+}
+

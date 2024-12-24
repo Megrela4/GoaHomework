@@ -1,0 +1,14 @@
+body {
+    background-color: black;
+}
+
+p {
+    color: white;
+    background-color: gold;
+}
+
+h2 {
+    text-align: center;
+    color: gold;
+    background-color: white;
+}
