@@ -1,0 +1,41 @@
+#p1 {
+    text-decoration:underline rgb(0,255,0) dashed;
+}
+
+#p2 {
+    text-decoration: line-through;
+}
+
+#p3 {
+    text-decoration: overline rgb(255,0,0) double;
+}
+
+#p4 {
+    text-decoration: underline;
+}
+
+#p5 {
+    text-decoration: line-through rgb(0,255,0) dashed;
+}
+
+#p6 {
+    text-decoration: line-through;
+}
+
+#p7 {
+    text-decoration: overline;
+}
+
+#p8 {
+    text-decoration: overline rgb(0,255,0);
+    color: rgb(0,255,0);
+}
+
+#p9 {
+    text-decoration: overline rgb(100, 100, 100);
+    color: rgb(100, 100, 100)
+}
+
+#p10 {
+    text-decoration: underline rgb(0,255,0) dashed;
+}
