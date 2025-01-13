@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+AU+VIC+Guides&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Playwrite+AU+VIC+Guides&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&family=Oswald:wght@200..700&family=Playwrite+AU+VIC+Guides&display=swap');
+
+body {
+    font-family: "Playwrite AU VIC Guides", serif;
+}
+
+
+#basic {
+    text-decoration:underline rgb(0,255,0) dashed;
+}
+
+
+#age {
+    text-decoration: line-through;
+    color: rgb(12, 129, 232);
+}
+
+#class {
+    text-decoration: underline dashed;
+    color: rgb(200, 50, 50);
+}
+
+
+#family {
+    text-decoration: line-through rgb(100, 100, 100);
+}
