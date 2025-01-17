@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Serif+Text:ital@0;1&family=Oswald:wght@200..700&family=Playwrite+AU+VIC+Guides&display=swap');
+  
+
+* {
+    font-family: "Playwrite AU VIC Guides", serif;
+    color:rgb(22, 22, 117);
+    font-weight: 900;
+}
+
+
+
+img {
+    border-radius: 25%;
+}
+
+
+body {
+    background-color: rgb(199, 155, 45);
+}
