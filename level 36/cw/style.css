@@ -1,0 +1,23 @@
+#first {
+    border: 2px solid black;
+    width:300px;
+    background-color: darkred;
+}
+
+#second {
+    border: 2px solid black;
+    width:300px;
+    background-color: navy;
+}
+
+#first:hover {
+    width: 1000px;
+    background-color: navy;
+    transition: 2s;
+}
+
+#second:hover {
+    width: 1000px;
+    background-color: darkred;
+    transition: 2s;
+}
