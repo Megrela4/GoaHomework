@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Serif+Text:ital@0;1&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Oswald:wght@200..700&family=Playwrite+AU+VIC+Guides&display=swap');
+
+* {
+    font-family: "Inter", serif;
+    padding: 0%;
+    margin: 0%;
+}
+
+body {
+    display: flex;
+    background-color: hsl(0, 0%, 8%);
+    justify-content: center;
+}
+
+
+#mainDIV {
+    display: flex;
+    flex-direction: column;
+    color: whitesmoke;
+    align-items: center;
+    background-color: hsl(0, 0%, 12%);
+    padding: 30px;
+    
+    
+}
+
+#buttonsDiv {
+    display: flex;
+    flex-direction: column;
+    gap: 17px;
+    width: 250px;
+    
+    
+}
+
+
+img {
+    width: 90px;
+    border-radius: 50%;
+}
+
+
+#locationP {
+    color:hsl(75, 94%, 57%)
+}
