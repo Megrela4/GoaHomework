@@ -1,0 +1,54 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f4f4f4;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+.car-container {
+    width: 75%;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.car-container img {
+    width: 100%;
+    border-radius: 10px;
+}
+h1 {
+    margin: 15px 0;
+}
+p {
+    font-size: 1.2em;
+    color: #555;
+}
+/* რესპონსივი */
+@media (max-width: 1024px) {
+    .car-container {
+        width: 85%;
+    }
+}
+@media (max-width: 768px) {
+    .car-container {
+        width: 95%;
+    }
+    p {
+        font-size: 1em;
+    }
+}
+@media (max-width: 480px) {
+    .car-container {
+        width: 100%;
+        padding: 15px;
+    }
+    h1 {
+        font-size: 1.5em;
+    }
+    p {
+        font-size: 0.9em;
+    }
+}
