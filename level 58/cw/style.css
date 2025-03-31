@@ -1,0 +1,23 @@
+.box {
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    animation: changeSizeAndColor 3s ease-in-out ;
+}
+
+@keyframes changeSizeAndColor {
+    33% {
+        width: 150px;
+        height: 150px;
+        background-color: yellow;
+    }
+    66% {
+        width: 200px;
+        height: 200px;
+        background-color: red;
+    }
+}
