@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>3 Column Preview Card</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: hsl(0, 0%, 95%);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+    .container {
+      display: flex;
+      border-radius: 10px;
+      overflow: hidden;
+      max-width: 900px;
+    }
+    .card {
+      padding: 40px;
+      color: white;
+      width: 300px;
+    }
+    .card h2 {
+      margin-top: 0;
+      font-size: 24px;
+      text-transform: uppercase;
+    }
+    .card p {
+      font-size: 14px;
+      line-height: 1.5;
+      margin: 20px 0;
+    }
+    .card a {
+      display: inline-block;
+      padding: 10px 20px;
+      background: white;
+      color: inherit;
+      text-decoration: none;
+      border-radius: 20px;
+      font-weight: bold;
+    }
+    .sedans { background: hsl(31, 77%, 52%); }
+    .suvs { background: hsl(184, 100%, 22%); }
+    .luxury { background: hsl(179, 100%, 13%); }
+    .sedans a { color: hsl(31, 77%, 52%); }
+    .suvs a { color: hsl(184, 100%, 22%); }
+    .luxury a { color: hsl(179, 100%, 13%); }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="card sedans">
+      <h2>Sedans</h2>
+      <p>Choose a sedan for its affordability and excellent fuel economy. Ideal for cruising in the city or on your next road trip.</p>
+      <a href="#">Learn More</a>
+    </div>
+    <div class="card suvs">
+      <h2>SUVs</h2>
+      <p>Take an SUV for its spacious interior, power, and versatility. Perfect for your next family vacation and off-road adventures.</p>
+      <a href="#">Learn More</a>
+    </div>
+    <div class="card luxury">
+      <h2>Luxury</h2>
+      <p>Cruise in the best car brands without the bloated prices. Enjoy the enhanced comfort of a luxury rental and arrive in style.</p>
+      <a href="#">Learn More</a>
+    </div>
+  </div>
+</body>
+</html>
