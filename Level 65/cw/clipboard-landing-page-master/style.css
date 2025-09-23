@@ -1,0 +1,173 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 18px;
+  color: hsl(210, 10%, 33%);
+  line-height: 1.6;
+  text-align: center;
+}
+
+button {
+  border: none;
+  border-radius: 30px;
+  padding: 15px 30px;
+  margin: 10px;
+  font-weight: 600;
+  cursor: pointer;
+  color: #fff;
+  transition: opacity 0.3s;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+button.iOS {
+  background: hsl(171, 66%, 44%);
+  box-shadow: 0 4px 6px rgba(38, 186, 164, 0.3);
+}
+
+button.Mac {
+  background: hsl(233, 100%, 69%);
+  box-shadow: 0 4px 6px rgba(97, 115, 255, 0.3);
+}
+
+header, .feat, .clipboard, .workflow, .board {
+  max-width: 1100px;
+  margin: auto;
+  padding: 80px 20px;
+}
+
+header img {
+  margin-bottom: 40px;
+}
+
+header h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+header p {
+  margin-bottom: 30px;
+  color: hsl(201, 11%, 66%);
+}
+
+.feat {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  align-items: center;
+}
+
+.feat .imgbox img {
+  max-width: 100%;
+}
+
+.textbox {
+  max-width: 500px;
+}
+
+.textbox h2 {
+  margin-bottom: 20px;
+}
+
+.list {
+  margin: 20px 0;
+}
+
+.clipboard p {
+  color: hsl(201, 11%, 66%);
+  max-width: 600px;
+  margin: 20px auto;
+}
+
+.workflow-list {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  margin-top: 50px;
+}
+
+.workflow2 {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 40px;
+  margin-top: 70px;
+}
+
+.workflow2 img {
+  max-height: 40px;
+}
+
+.board p {
+  color: hsl(201, 11%, 66%);
+  max-width: 600px;
+  margin: 20px auto;
+}
+
+footer {
+  background: #f5f6f8;
+  padding: 40px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+}
+
+footer .links {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+footer .socials {
+  display: flex;
+  gap: 20px;
+}
+
+footer .socials img {
+  width: 24px;
+  height: 24px;
+}
+
+
+@media (min-width: 768px) {
+  header p {
+    max-width: 600px;
+    margin: auto;
+  }
+
+  .feat {
+    flex-direction: row;
+    align-items: flex-start;
+    text-align: left;
+  }
+
+  .textbox {
+    text-align: left;
+  }
+
+  .workflow-list {
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: center;
+  }
+
+  footer {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  footer .links {
+    flex-direction: row;
+    gap: 30px;
+  }
+}
+
