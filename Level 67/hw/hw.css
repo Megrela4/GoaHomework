@@ -1,0 +1,29 @@
+/*
+    1) კომენტარების სახით ახსენით რა არის box-sizing, რა განსხვავებაა border-box-სა და contain-box-ს შორის.
+    box-sizing არის ყუთის ზომა და მისი დანიშნულებაა რომ გააკონტროლო როგორ იზომება HTML ელემენტის ზომა
+*/
+
+/* 
+    2) კომენტარების სახით ახსენით რა არის position: relative და გააკეთეთ მაგალითი. 
+    position relative არის ელემენტის default პოზიცია
+    მაგ:
+    .box {
+        position: relative;
+*/
+
+/*
+    3) ებ-საიტზე შემოიტანეთ 1 ცალი div ელემენტი, მიანიჭეთ მას ზომები და უკანა ფონის ფერი. თქვენი დავალებაა მიანიჭოთ body-ს height 100vh-ი, გამოიყენოთ css reset-ის მეთოდი და გადაადგილეთ შექმნილი div-ი position: relative-ს დახმარებით.
+    *{
+        margin: 0
+        padding: 0
+    }
+
+    .3 {
+        height: 100vh;
+        background-color: blue;
+        position: relative;
+    }
+ */
+
+
+
