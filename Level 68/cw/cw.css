@@ -1,0 +1,47 @@
+/* 
+
+1) კომენტარების სახით ახსენით პოზიციონირების თითოეული მნიშვნელობა --> relative, absolute, static.
+static - არის ელემენტის default პოზიცია
+absolute - მდებარეობს უახლოეს მშობელთან და სხვა ელემენტები ისე იქცევიან თითქოს არ არსებობენ
+relative - შეგვიძლია გადაავადგილოთ მაგრამ ადგილი საიდანაც გადავაადგილეთ ისევ დაკავებულია
+
+*/
+
+
+/* 2) ვებ-საიტზე შემოიტანეთ 1 ცალი div ელემენტი, მიანიჭეთ მას ზომები და უკანა ფონის ფერი. თქვენი დავალებაა მიანიჭოთ body-ს height 100vh-ი, გამოიყენოთ css reset-ის მეთოდი და გადაადგილეთ შექმნილი div-ი position relative-ით top-დან 200px-ით და left-იდან 200px-თ */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+}
+
+.random {
+    background-color: brown;
+    height: 300px;
+    width: 200px;
+    position: relative;
+    top: 200px;
+    left: 200px;
+}
+
+/* 3) ვებ-საიტზე შემოიტანეთ 1 ცალი div ელემენტი, მიანიჭეთ მას ზომები და უკანა ფონის ფერი. თქვენი დავალებაა მიანიჭოთ body-ს height 100vh-ი, გამოიყენოთ css reset-ის მეთოდი და გადაადგილეთ შექმნილი div-ი position absolute-ით bottom-დან 150px-ით და right-იდან 0-თ. */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+}
+
+.random {
+    background-color: red;
+    height: 150px;
+    width: 100px;
+    position: absolute;
+    bottom: 150px;
+    right: 0px;
+}
