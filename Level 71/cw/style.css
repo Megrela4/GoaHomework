@@ -1,0 +1,80 @@
+body {
+    background-color: #a3a27c;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    width: 1200px;
+}
+
+div {
+    width: 350px;
+    height: 250px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+.jap {
+    background-image: url(https://media.discordapp.net/attachments/1337146508188979271/1426603653342429426/image1.jpg?ex=68ebd3af&is=68ea822f&hm=7a467948d1031e50674674209f318d311f2c1ef60384f147dbd48be6487277d8&=&format=webp&width=1398&height=874);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.dub {
+    background-image: url(https://media.discordapp.net/attachments/1337146508188979271/1426603653892014400/image2.jpg?ex=68ebd3b0&is=68ea8230&hm=6b4d51a82f86b6af44002257d5c77c5b469a1e93a0146b1adb64a849e3863ce9&=&format=webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.par {
+    background-image: url(https://media.discordapp.net/attachments/1337146508188979271/1426603654265176144/image3.jpg?ex=68ebd3b0&is=68ea8230&hm=2ffcb30100256ff9ac51bcd4956c0056212cb9d9db48245cd34048478a891031&=&format=webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.tbil {
+    background-image: url(https://media.discordapp.net/attachments/1337146508188979271/1426603661580046466/tbilisi.jpg?ex=68ebd3b1&is=68ea8231&hm=56f5435c4416226b83740dc9b6c8a758f53951819ab104d43c9393f3726f4b04&=&format=webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.ny {
+    background-image: url(https://media.discordapp.net/attachments/1337146508188979271/1426603655146246264/image4.jpg?ex=68ebd3b0&is=68ea8230&hm=f34cfcfd35f7b8a91386f6608887a5af1d78b32ea7e648fd7c36da4f567fe2e4&=&format=webp&width=1553&height=874);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.sk {
+    background-image: url(https://media.discordapp.net/attachments/1337146508188979271/1426603655636844694/image5.jpg?ex=68ebd3b0&is=68ea8230&hm=14bb245f3b3582568f63246dd991b342a712afa7236be0f44cb8322fad4c86c5&=&format=webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+div h2 {
+    font-size: 40px;
+    color: white;
+}
+
+div p {
+    color: white;
+    font-size: 17px;
+}
+
+
+         
+
+
