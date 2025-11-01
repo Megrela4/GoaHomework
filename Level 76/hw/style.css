@@ -1,0 +1,23 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    display: grid;            
+    grid-template-columns: repeat(3, 120px); 
+    grid-template-rows: repeat(2, 120px);   
+    gap: 15px;                    
+}
+
+.box {
+    background: gray;
+    color: white;
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
