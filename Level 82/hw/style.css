@@ -1,0 +1,98 @@
+body {
+    margin: 0;
+    padding: 40px;
+    background-color: #b6b7b8;
+}
+
+
+.grid {
+    display: grid;
+    grid-template-columns: 520px 420px 300px;
+    grid-template-rows: 260px 320px;
+    grid-template-areas:
+        "big mid tall"
+        "small dark tall";
+    gap: 28px;
+}
+
+
+.card {
+    border-radius: 12px;
+    padding: 22px;
+    background: #fff;
+}
+
+
+.big {
+    grid-area: big;
+    background: #8b3ae8;
+    color: #fff;
+}
+
+
+.mid {
+    grid-area: mid;
+    background: #4d5b6a;
+    color: #fff;
+}
+
+
+.tall {
+    grid-area: tall;
+    background: #ffffff;
+}
+
+
+.small {
+    grid-area: small;
+    background: #ffffff;
+}
+
+
+.dark {
+    grid-area: dark;
+    background: #11141a;
+    color: #e8eef6;
+}
+
+
+.meta {
+    display: flex;
+    gap: 12px;
+    align-items: center;
+    margin-bottom: 12px;
+}
+
+
+.avatar {
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    background-size: cover;
+    background-position: center;
+}
+
+
+.name {
+    font-weight: 600;
+}
+
+
+.subtitle {
+    font-size: 13px;
+    margin-top: 4px;
+}
+
+
+.quote {
+    font-size: 20px;
+    line-height: 1.3;
+    font-weight: 700;
+    margin: 8px 0 12px 0;
+}
+
+
+.body {
+    font-size: 14px;
+    line-height: 1.5;
+}
