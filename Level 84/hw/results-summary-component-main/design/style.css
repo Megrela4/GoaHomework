@@ -1,0 +1,175 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+    background-color: hsl(221, 100%, 96%);
+}
+
+.result {
+    background: linear-gradient(hsl(252, 100%, 67%),hsl(241, 100%, 35%));
+    width: fit-content;
+    height: fit-content;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 40px;
+    padding-bottom: 45px;
+    padding-left: 60px;
+    padding-right: 60px;
+    color: white;
+    gap: 25px;
+    text-align: center;
+}
+
+.result h1 {
+    color: gainsboro;
+    font-size: 20px;
+}
+
+
+.result p {
+    font-size: 16px;
+    font-weight: 200;
+    line-height: 20px;
+    color: hsl(241, 100%, 89%)
+}
+
+.score h2 {
+    font-size: 80px;
+}
+
+
+
+.score {
+    border-radius: 50%;
+    background: linear-gradient(hsl(256, 72%, 46%, 1), hsl(241, 81%, 54%));
+    /* padding: 50px; */
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-top: 45px;
+    padding-bottom: 45px;
+}
+
+.score p {
+    font-size: 16px;
+    font-weight: 500;
+    color: hsl(241, 100%, 89%)
+}
+
+
+
+main {
+    display: flex;
+    flex-direction: row;
+    border-radius: 25px;
+    background-color: white;
+    max-height: 473px;
+}
+
+
+
+.fullstats {
+    height: 100%;
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 25px;
+    padding: 37px 60px 10px 30px;
+    gap: 20px;
+    
+}
+
+.fullstats > div {
+    width: 100%;
+    gap: 30px;
+    border-width: 2px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.fullstats h2 {
+    font-size: 20px;
+    color: black;
+    gap: 35px;
+}
+
+
+.stats > div {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    padding: 11px 9px 9px 9px;
+    border-radius: 5px;
+    width: 100%;
+    align-items: center;
+    
+    
+}
+
+.stats {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    justify-content: space-evenly;
+    gap: 20px;
+}
+
+.stats > div p{
+    color: darkgrey;
+}
+
+.stats > div span{
+    font-weight: bold;
+    color: black;
+}
+
+.stat1 {
+    background-color: hsla(0, 100%, 67%, 0.103);
+    color: hsl(0, 100%, 67%);
+}
+
+
+.stat2 {
+    background-color: hsla(39, 100%, 56%, 0.103);
+    color: hsl(39, 100%, 56%);
+}
+
+.stat3 {
+    background-color: hsl(166, 100%, 37%, 0.103);
+    color: hsl(166, 100%, 37%);
+}
+
+.stat4 {
+    background-color: hsl(234, 85%, 45%, 0.103);
+    color: hsl(234, 85%, 45%);
+}
+
+#btn {
+    background-color: hsl(224, 30%, 27%);
+    border-radius: 27px;
+    text-align: center;
+    padding: 15px 9px 15px 9px;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    border-style: none;
+}
+
+#btn:hover {
+    background-color: hsl(241, 81%, 54%);
+}
+
