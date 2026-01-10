@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+
+
+    <script>
+        // 1) მათემატიკური ობიექტის მეშვეობით კონსოლში გამოიტანეთ რიცხვი PI.
+            console.log(Math.PI);
+
+        // // 2) მათემატიკური ობიექტის მეშვეობით კონსოლში გამოიტანეთ random რიცხვი 1-1000 მდე.
+            console.log(Math.floor(Math.random() * 1000));
+
+        // 3) კონსოლში გამოიტანეთ რაღაც სტრინგი რომელსაც გადაიყვანთ uppercase-ში შემდეგ ხაზზე lowercase-ში.
+            console.log("nika".toUpperCase);
+            console.log("Nika".toLocaleLowerCase);
+
+        // 4) შეამოწმეთ თქვენი სასურველი სტრინგი იწყება თუ არა ძახილის ნიშნით. შედეგი გამოიტანეთ კონსოლში 
+            console.log("car".startsWith("!"));
+
+        // 5) შეამოწმეთ თქვენი სასურველი სტრინგი მთავრდება თუ არა წერტილით. შედეგი გამოიტანეთ კონსოლში 
+            console.log("airplane".endsWith("."))
+
+
+
+        // 6) let, var, const keyword-ების გამოყენებით შექმენით ცვლადები სადაც შეინახავთ თქვენს შესახებ ინფორმაციას, ხოლო შემდეგ კი ამ ცვლადებით ააწყობთ ერთ დიდ წინადადებას.
+
+            let age = 14
+            var name = "Nika"
+            const lastName = "Megrelishvili"
+
+            console.log("My Name is " + name + " and Im " + age + " years old. Also my last name is " + lastName)
+
+        // 7) შექმენით 2 ცვლადი. პირველში შეინახება random რიცხვი 1 - 10მდე ხოლო მეორეში random რიცხვი 1 - 30 მდე. თქვენი დავალებაა რომ console-ში გამოიტანოთ პირველი რიცხვი ახარისხებული მეორე რიცხვზე.
+
+            let num1 = Math.floor(Math.random() * 10)
+            let num2 = Math.floor(Math.random() * 30)
+
+            console.log(Math.pow(num1, num2))
+
+    </script>
+</body>
+</html>
